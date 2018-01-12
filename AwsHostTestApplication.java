@@ -8,5 +8,6 @@ public class AwsHostTestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AwsHostTestApplication.class, args);
+		System.out.println("Running Spring Boot App");
 	}
 }
