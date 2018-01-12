@@ -12,11 +12,9 @@ public class HelloController
 	{
 		System.out.println(request.getHeader("access-token"));
 		System.out.println(request.getHeader("Authorization"));
-<<<<<<< HEAD
+
 		System.out.println("Hello");
-=======
 		System.out.println(request.getHeader("Path");
->>>>>>> 55c4c628700be0c8a946962902d33dc919bb2218
 		return "Hello from AWS";
 	}
 }
